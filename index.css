@@ -10,8 +10,17 @@
 }
 .overlay{
     border: 2px solid black;
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 10%;
+    height: 10%
     /* flex-shrink: 2; */
-    align-self: auto;
+}
+.picture {
+    justify-content: center;
 }
 .button {
     background-color: pink;
