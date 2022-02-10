@@ -8,14 +8,28 @@
 .row {
     flex-direction: row;
 }
+.overlay{
+    border: 2px solid black;
+    /* flex-shrink: 2; */
+    align-self: auto;
+}
+.button {
+    background-color: pink;
+}
+.item {
+    border: 2px solid black;
+}
 header {
     height: 240px;
-    color: lightblue; 
+    background-color: lightblue; 
 }
 body {
-    color: lightgreen;
+    background-color: lightgreen;
 }
-footer {
+footer {    
     height: 300px; 
+}
+img {
+    height: 300px;
 }
 /* black background color, white text and no padding will adjust once the rest of the page is finished*/
