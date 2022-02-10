@@ -1,3 +1,29 @@
+/*For small screens*/
+
+@media screen and (max-width: 600px) {
+
+
+
+//put the class here
+
+
+
+}
+
+
+
+/*For large screens*/
+
+@media screen and (min-width: 1024px){
+
+
+
+//put the class here
+
+
+
+}
+
 .container{
     display: flex;
     flex-direction: row;
@@ -28,8 +54,13 @@ body {
 }
 footer {    
     height: 300px; 
+    justify-content: space-between;
+    position: absolute;
+    bottom: 0px;
 }
 img {
     height: 300px;
 }
-/* black background color, white text and no padding will adjust once the rest of the page is finished*/
+.t-m{
+    padding-left: 65px;
+}
