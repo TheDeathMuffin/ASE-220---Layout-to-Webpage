@@ -6,6 +6,23 @@
 
 }
 
+/*For Header*/
+.logo-img{
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    padding: 0px 20px;
+}
+
+.nav-buttons{
+    margin-left: auto;
+}
+
+ul li{
+    display: inline-block;
+    font-size: 24px;
+    padding: 0px 20px;
+}
 .filter-menu {
     background-color: red;
     text-align: center;
@@ -91,6 +108,9 @@
 header {
     height: 240px;
     background-color: lightblue; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 body {
     background-color: lightgreen;
