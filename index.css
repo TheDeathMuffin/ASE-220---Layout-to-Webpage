@@ -1,16 +1,11 @@
-<<<<<<< HEAD
-<<<<<<< Updated upstream
+
 /*For small screens*/
 
 @media screen and (max-width: 600px) {
 
 
+}
 
-//put the class here
-
-
-
-=======
 .filter-menu {
     background-color: red;
     text-align: center;
@@ -49,28 +44,16 @@
     width: 120px;
     height: 25px;
     margin: 10px;
->>>>>>> Stashed changes
 }
 
 
 
-<<<<<<< Updated upstream
 /*For large screens*/
 
 @media screen and (min-width: 1024px){
 
 
-
-//put the class here
-
-
-
 }
-=======
->>>>>>> Stashed changes
-
-=======
->>>>>>> 9971fcffdf705bae1db738aebffcdaf6c3e10ad6
 .container{
     display: flex;
     flex-direction: row;
