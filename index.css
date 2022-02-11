@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 /*For small screens*/
 
 @media screen and (max-width: 600px) {
@@ -8,10 +9,51 @@
 
 
 
+=======
+.filter-menu {
+    background-color: red;
+    text-align: center;
+    height: auto;
+    width: 200px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 20px;
+    padding: 20px;
+}
+.filter-menu-form {
+    background-color: green;
+    position: center;
+    width: 100%;
+    padding: 0px 10px 30px 10px;
+}
+.filter-menu-option {
+    background-color: blue;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.filter-menu-option select,input[type="text"] {
+    background-color: orange;
+    width: 150px;
+}
+.filter-menu-label {
+    background-color: pink;
+    padding-top: 20px;
+}
+.filter-menu-button {
+    background-color: yellow;
+    padding-top: 60px;
+    padding-bottom: 5px;
+}
+.filter-menu-button button {
+    width: 120px;
+    height: 25px;
+    margin: 10px;
+>>>>>>> Stashed changes
 }
 
 
 
+<<<<<<< Updated upstream
 /*For large screens*/
 
 @media screen and (min-width: 1024px){
@@ -23,6 +65,8 @@
 
 
 }
+=======
+>>>>>>> Stashed changes
 
 .container{
     display: flex;
