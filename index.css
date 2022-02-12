@@ -82,7 +82,7 @@ ul li{
 }
 .picture > .overlay{
     border: 2px solid rgb(0, 4, 255);
-    flex-wrap: wrap;
+    /*flex-wrap: wrap;
     z-index: 2;
     /* flex-shrink: 2; */
 }
@@ -97,7 +97,7 @@ ul li{
     justify-content: space-between;
 }
 .button-container {
-
+    
 }
 .button-container > .button {
     background-color: pink;
