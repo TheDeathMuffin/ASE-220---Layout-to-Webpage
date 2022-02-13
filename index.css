@@ -8,6 +8,26 @@
 
 }
 
+/*link states*/
+.nav-buttons a:link {
+    color: white;
+  }
+  
+  /* visited link */
+.nav-buttons a:visited {
+    color: wheat;
+  }
+  
+  /* mouse over link */
+  .nav-buttons a:hover {
+    color: gold;
+  }
+  
+  /* selected link */
+  .nav-buttons a:active {
+    color: orange;
+  }
+
 /*For Header*/
 .logo-img{
     width: 100%;
