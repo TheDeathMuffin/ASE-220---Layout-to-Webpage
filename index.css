@@ -156,8 +156,8 @@ footer {
     position: relative;
     bottom: 0px;
 }
-.t-m{
-    padding-left: 65px;
+label{
+    background-color: white;
 }
 /*For small screens*/
 
