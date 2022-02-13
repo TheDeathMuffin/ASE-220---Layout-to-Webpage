@@ -80,30 +80,40 @@ ul li{
 .row {
     flex-direction: row;
 }
-.picture > .overlay{
+.overlay{
     border: 2px solid rgb(0, 4, 255);
-    /*flex-wrap: wrap;
-    z-index: 2;
-    /* flex-shrink: 2; */
-}
-.content{
-    border: 2px solid red;
-}
-.picture > img {
-    z-index: 1;
     position: relative;
+    color: white;
+    background-color: ivory;
+    top: -305px;
 }
-.item > .picture {
+.card-container{
+
+}
+.right-side{
+    flex-wrap: wrap;
+}
+.title {
+    color: darkred; 
+    text-align: center;
+}
+img {
+    position: relative;
+    height: 300px;
+}
+.overlay-container {
     justify-content: space-between;
 }
 .button-container {
-    
+    justify-content: space-between;
+}   
+.button {
+    background-color: cyan;
 }
-.button-container > .button {
-    background-color: pink;
-}
-.content > .item {
-    border: 2px solid black;
+.card{
+    padding: 20px;
+    border: 5px outset grey;
+    border: 5px inset grey;
 }
 header {
     height: 240px;
@@ -120,9 +130,6 @@ footer {
     justify-content: space-between;
     position: relative;
     bottom: 0px;
-}
-img {
-    height: 300px;
 }
 .t-m{
     padding-left: 65px;
