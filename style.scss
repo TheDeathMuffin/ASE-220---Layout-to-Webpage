@@ -137,6 +137,7 @@ ul li {
 
 .card-container {
   padding: 15px;
+  width: 20%;
 }
 
 .description {
@@ -153,13 +154,17 @@ ul li {
   justify-content: center;
   max-width: fit-content;
 }
-
+// Using CSS Mixins
+@mixin good-text($font-family: kranky){
+  font-family: $font-family;
+}
 .title {
+  @include good-text();
   color: purple;
   position: relative;
   top: -40px;
   text-align: center;
-  font-family: kranky;
+  // font-family: kranky;
   font-weight: bold;
   font-size: larger;
   text-shadow: 4px 1px 10px black;
@@ -174,15 +179,29 @@ img {
 .button-container {
   justify-content: space-between;
 }
-
-.button, .button-blue {
-  background-color: lightblue;
+.button {
+  color: black;
+  font-weight: bolder;
 }
 
-/* Using CSS Pre-processor EXTEND capability */
-.button-blue {
-  background-color: blue;
+
+// Using CSS Pre-Processor LOOP and EXTEND capabilities to make button color classes
+$colors: (
+  "lightblue": lightblue,
+  "gray": gray,
+  "red": red,
+  "purple": purple,
+  "green": green,
+  "darkblue": darkblue,
+  "white": white
+);
+@each $key, $color in $colors {
+  .button-#{$key}{
+    @extend .button;
+    background-color: $color;
+  }
 }
+
 
 .card {
   border: 5px outset grey;

@@ -135,6 +135,7 @@ ul li {
 
 .card-container {
   padding: 15px;
+  width: 20%;
 }
 
 .description {
@@ -153,11 +154,11 @@ ul li {
 }
 
 .title {
+  font-family: kranky;
   color: purple;
   position: relative;
   top: -40px;
   text-align: center;
-  font-family: kranky;
   font-weight: bold;
   font-size: larger;
   text-shadow: 4px 1px 10px black;
@@ -173,13 +174,37 @@ img {
   justify-content: space-between;
 }
 
-.button, .button-blue {
+.button, .button-white, .button-darkblue, .button-green, .button-purple, .button-red, .button-gray, .button-lightblue {
+  color: black;
+  font-weight: bolder;
+}
+
+.button-lightblue {
   background-color: lightblue;
 }
 
-/* Using CSS Pre-processor EXTEND capability */
-.button-blue {
-  background-color: blue;
+.button-gray {
+  background-color: gray;
+}
+
+.button-red {
+  background-color: red;
+}
+
+.button-purple {
+  background-color: purple;
+}
+
+.button-green {
+  background-color: green;
+}
+
+.button-darkblue {
+  background-color: darkblue;
+}
+
+.button-white {
+  background-color: white;
 }
 
 .card {
