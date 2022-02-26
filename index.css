@@ -8,6 +8,7 @@
 
 }
 
+
 /*link states*/
 .nav-buttons a:link {
     color: white;
@@ -171,6 +172,11 @@ img {
 }   
 .button {
     background-color: lightblue;
+}
+/* Using CSS Pre-processor EXTEND capability */
+.button-blue {
+    @extend .button;
+    background-color: blue;
 }
 .card{
     border: 5px outset grey;
