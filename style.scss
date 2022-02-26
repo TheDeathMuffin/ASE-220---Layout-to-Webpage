@@ -4,7 +4,7 @@
 $large_font-size: 24px;
 
 /*link states*/
-.nav-buttons a:link {
+.nav-buttons a:link { 
   color: white;
   font-size: $large_font-size;
 }
@@ -44,7 +44,7 @@ label > a:active {
 }
 
 /*For Header*/
-.logo-img {
+.header-logo-img {
   width: 100%;
   max-width: 200px;
   height: auto;
@@ -137,7 +137,7 @@ ul li {
 
 .card-container {
   padding: 15px;
-  width: 20%;
+  flex-basis: 20%;
 }
 
 .description {
@@ -245,11 +245,17 @@ label {
 }
 
 /*For small screens*/
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 600px){
   /* put the class here */
+  .card-container{
+    flex-direction: column;
+  }
 }
 /*For large screens*/
-@media screen and (min-width: 1024px) {
+/*
+I Figured that since there is only 2 modes (large and small) that we only need to adjust for small screen and have large as default
+*/
+@media screen and (min-width: 1024px){
   /* put the class here */
 }
 
